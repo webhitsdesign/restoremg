@@ -1,0 +1,19 @@
+# Local tooling
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Common build outputs
+node_modules/
+dist/
+build/
+coverage/
